@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore top-selling products, new releases, Amazon Prime, and more on Amazon.">
+    <meta name="keywords" content="Amazon, Best Sellers, Prime, Electronics, Shopping">
+    <meta name="author" content="Amazon Clone">
+    <title>Amazon </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="https://www.amazon.com/ref=nav_logo">Amazon</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://www.amazon.com/Best-Sellers/zgbs">Best Sellers</a></li>
+                <li><a href="https://www.amazon.com/new-releases">New Releases</a></li>
+                <li><a href="https://www.amazon.com/amazonprime">Amazon Prime</a></li>
+                <li><a href="https://www.amazon.com/gp/goldbox">Deals</a></li>
+                <li><a href="https://www.amazon.com/gp/site-directory">Categories</a></li>
+                <li><a href="https://www.amazon.com/mobile-apps/b?ie=UTF8&node=2350149011">Mobile Apps</a></li>
+                <li><a href="https://www.amazon.com/gp/help/customer/display.html">Help</a></li>
+                <li><a href="https://www.amazon.com/business">Business</a></li>
+                <li><a href="https://www.amazon.jobs/">Careers</a></li>
+            </ul>
+        </nav>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <form action="https://www.amazon.com/s" method="get">
+                <input type="text" name="k" placeholder="Search products..." aria-label="Search Amazon">
+                <button type="submit">🔍</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Banner -->
+        <section class="banner">
+            <a href="https://www.amazon.com/s?k=amazon+banner&crid=30MUMJU6MOBOT&sprefix=amazon+banner%2Caps%2C483&ref=nb_sb_ss_ts-doa-p_1_13"></a>
+        </section>
+
+        <!-- Best Sellers Section -->
+        <section class="product-section">
+            <h2>Best Sellers</h2>
+            <div class="product-list">
+                <article class="product-item">
+                    <img src="https://m.media-amazon.com/images/I/91ZVf3kNrcL._SY466_.jpg" alt="Let Them Theory Life-Changing Millions" loading="lazy">
+                    <p>Let Them Theory Life-Changing Millions</p>
+                </article>
+                <article class="product-item">
+                    <img src="https://m.media-amazon.com/images/I/61o5Q8IIq4L._SY466_.jpg" alt="Sunrise Reaping Hunger Games Novel" loading="lazy">
+                    <p>Sunrise Reaping Hunger Games Novel</p>
+                </article>
+                <article class="product-item">
+                    <img src="https://m.media-amazon.com/images/I/81+efMYN9wL._SY385_.jpg" alt="The Forgotten Home Apothecary" loading="lazy">
+                    <p>The Forgotten Home Apothecary</p>
+                </article>
+            </div>
+        </section>
+        <!-- New Releases Section -->
+<section class="product-section">
+    <h2>New Releases</h2>
+    <div class="product-list">
+        <article class="product-item">
+            <img src="https://m.media-amazon.com/images/I/61YSuy6Q8UL._AC_SX466_.jpg" alt="Anker Nano Travel Adapter, 5" loading="lazy">
+            <p>AnkerNano Travel Adapter, 5</p>
+        </article>
+        <article class="product-item">
+            <img src="https://m.media-amazon.com/images/I/61zRDfSgrlL._AC_SX679_.jpg" alt="Water Heater Cleaning and Flushing Tool " loading="lazy">
+            <p>Water Heater Cleaning and Flushing Tool </p>
+        </article>
+        <article class="product-item">
+            <img src="https://m.media-amazon.com/images/I/51yVvRtBLBL._AC_SX679_.jpg" alt="New 2025 ecobee Smart Thermostat Essential" loading="lazy">
+            <p>New 2025 ecobee Smart Thermostat Essential</p>
+        </article>
+    </div>
+</section>
+<!-- Shop by Department -->
+<section class="product-section">
+    <h2>ComputerAccessories & Peripherals</h2>
+    <div class="product-list">
+        <article class="product-item">
+            <img src="https://m.media-amazon.com/images/I/71wG3exgnIL._AC_UL480_QL65_.jpg" alt="Let Your Light Shine Matthew 5:16" loading="lazy">
+            <p>Let Your Light Shine Matthew 5:16</p>
+        </article>
+        <article class="product-item">
+            <img src="https://m.media-amazon.com/images/I/81J9QtZlVpL._AC_UL480_QL65_.jpg" alt="Rick Steves Best of Europe" loading="lazy">
+            <p>Rick Steves Best of Europe</p>
+        </article>
+        <article class="product-item">
+            <img src="https://m.media-amazon.com/images/I/61dZZ7kCJrL._AC_UL480_QL65_.jpg" alt="Vinho novo é melhor" loading="lazy">
+            <p>Vinho novo é melhor</p>
+        </article>
+    </div>
+</section>
+
+
+        
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="https://www.amazon.com/">About Amazon</a></li>
+                <li><a href="https://www.amazon.com/privacy">Privacy</a></li>
+                <li><a href="https://www.amazon.com/conditions">Terms</a></li>
+                <li><a href="https://www.facebook.com/Amazon">Facebook</a></li>
+                <li><a href="https://twitter.com/amazon">Twitter</a></li>
+                <li><a href="https://www.instagram.com/amazon">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
